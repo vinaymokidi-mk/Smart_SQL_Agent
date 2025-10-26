@@ -1,0 +1,25 @@
+# SQL Agent - Robust Implementation Requirements
+# Python 3.8+ required
+
+# Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# Data Processing
+pandas==2.1.4
+openpyxl==3.1.2  # For Excel file support
+xlrd==2.0.1      # For older .xls files
+
+# AI/ML - Google Gemini
+google-generativeai>=0.3.0
+
+# Utilities
+PyYAML==6.0.1
+python-dotenv==1.0.0  # For .env file support
+
+# Database
+# sqlite3 is included in Python standard library
+
+# Optional but recommended
+python-magic==0.4.27  # For better file type detection (optional)
+
